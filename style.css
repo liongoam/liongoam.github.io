@@ -1,0 +1,151 @@
+/* Version Bureau */
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family:'roboto',sans-serif;
+}
+/* Header */
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header nav a:hover{
+    color: rgb(255, 122, 122);
+}
+header nav{
+    display: flex;
+}
+/* Main */
+body{
+    background: #f7f7f7;
+    background: linear-gradient(90deg, rgba(247, 247, 247, 1) 0%, rgba(173, 173, 173, 1) 100%, rgba(255, 255, 255, 1) 100%);
+}
+body h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+main h1{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 100px;
+}
+section div img{
+    width: 300px;
+}
+section div p{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 20%;
+    margin-top: 10px;
+}
+section div{
+    display: flex;
+    flex-direction: column;
+}
+section button{
+    background: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+section button a{
+    text-decoration: none;
+    color: #000;
+}
+section button a:hover{
+    color: rgb(255, 122, 122);
+}
+/* article */
+article{
+    display: grid;
+    margin-top: 40px;
+}
+article p{
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+article img{
+    width: 20%;
+    border-radius: 10px;
+    border-bottom: 1px solid #000;
+}
+article button{
+    background: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+article button a{
+    text-decoration: none;
+    color: #000;
+}
+article button a:hover{
+    color: rgb(255, 122, 122);
+}
+/* contact */
+form{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+form input{
+    padding: 10px;
+}
+form textarea{
+    resize: none;
+    padding: 10%;
+    border: none;
+}
+input{
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* footer */
+footer h2{
+    font-weight: 400;
+}
+footer span img{
+    width: 50px;
+}
+footer span a{
+    text-decoration: none;
+    color: white;
+}
+footer span a:hover{
+    color: rgb(255, 122, 122);
+}
+footer{
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(173, 173, 173, 1) 100%, rgba(0, 0, 0, 1) 100%);
+    display: flex;
+    color: #fff;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul a{
+    text-decoration: none;
+    color: #fff;
+}
+footer ul a:hover{
+    color: rgb(255, 122, 122);
+}
+@media screen and (width <= 1024px){
+}
+/* Version Mobile S */
+@media screen and (width <= 320px){
+}
+/* Version Mobile M */
+@media screen and (width <= 375px){
+}
+/* Version Mobile L */
+@media screen and (width <= 425px){
+}
+/* Version Tablette */
+@media screen and (width <= 768px){
+}
